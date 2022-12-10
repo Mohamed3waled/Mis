@@ -1,0 +1,36 @@
+:root {
+  --min-color:#012269;
+  --second-color:#fff;
+}
+body {
+  font-family: 'Nunito', sans-serif;
+  overflow-x: hidden;
+  height: 2vh ;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navbar {
+  background-color: var(--min-color);
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--min-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

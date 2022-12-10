@@ -1,0 +1,106 @@
+
+
+.first-section {
+   background-image: url(../img/WhatsApp\ Image\ 2022-11-15\ at\ 9.13.03\ PM\ \(2\).jpeg);
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: flex-end;
+   height: 50vh;
+   margin-bottom: 50px;
+}
+.first-section .child-img {
+   display: flex;
+   justify-content: center;
+   position: relative;
+}
+.first-section .child-img img {
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   position: absolute;
+   top: -100px;
+}
+.border-name {
+   border: 1px solid rgb(224, 218, 218);
+   box-shadow:0 1px rgba(0, 0, 0, 0.514);
+   margin: 40px 0;
+   padding-left: 20px;
+}
+.second-section {
+   padding-top: 70px;
+}
+.border-name p {
+   margin: 10px 20px;
+   line-height: 1.8;
+}
+.border-name .grey {
+   color: #888888;
+}
+.border-name .black {
+   color: #000;
+}
+.ground-nav .img-brand img {
+   width: 50px;
+   border-radius: 50%;
+}
+.login-section {
+   background-image: url(../img/WhatsApp\ Image\ 2022-11-15\ at\ 9.13.03\ PM\ \(2\).jpeg);
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: center;
+   height: 100vh;  
+}
+.login-section .child-img .card .logo img{
+   width: 100px;
+   border-radius: 50%;
+   margin-bottom: 10px;
+}
+.login-section .child-img .card .logo .text {
+   color: #012269;
+   margin-top: 25px;
+}
+.login-section .child-img .card .user {
+   text-align: center;
+   margin: 10px;
+}
+.login-section .child-img .card .user input{
+   border: 1px solid #012269;
+   border-radius: 12px;
+   padding: 10px 0px 10px 20px;
+   width: 80%;
+}
+.login-section .child-img .card .btn-login {
+   text-align: center;
+   margin: 20px 0;
+}
+.login-section .child-img .card .btn-login button {
+   border: 1px solid #012269;
+   border-radius: 12px;
+   padding: 7px 15px;
+   background-color: #E91D2B;
+}
+.login-section .child-img .card .sign {
+   display: flex;
+   justify-content: end;
+}
+.login-section .child-img .card .sign a {
+   margin: 0 40px 20px 0;
+}
+.change-password {
+   text-align: center;
+}
+.change-password button {
+   padding: 20px 30px;
+   background-color: #fff;
+   font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+   .border-name {
+     margin-top: 30px;
+   }
+   .search-nav input {
+      width: 90% !important;
+   }
+ }
